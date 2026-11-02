@@ -1,0 +1,362 @@
+{
+ "bacterial_spot__00a7c269-3476-4d25-b744-44d6353cd921___GCREC_Bact.Sp_5807.JPG": {
+  "crop": "tomato",
+  "class": "bacterial_spot",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Provide a diagnostic description of this tomato leaf.",
+    "answer": "This tomato leaf bacterial spot. Chlorotic halos.",
+    "predicted_disease": "tomato_bacterial_spot",
+    "true_disease": "tomato_bacterial_spot",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Provide a diagnostic description of this tomato leaf.",
+    "answer": "This tomato leaf bacterial spot.",
+    "predicted_disease": "tomato_bacterial_spot",
+    "true_disease": "tomato_bacterial_spot",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "early_blight__0034a551-9512-44e5-ba6c-827f85ecc688___RS_Erly.B_9432.JPG": {
+  "crop": "tomato",
+  "class": "early_blight",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Provide a diagnostic description of this tomato leaf.",
+    "answer": "This tomato leaf is affected by early blight, showing brown-to-dark-brown circular lesions with concentric rings (target/bull's-eye), with pronounced yellow halos and general leaflet yellowing.",
+    "predicted_disease": "tomato_early_blight",
+    "true_disease": "tomato_early_blight",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Provide a diagnostic description of this tomato leaf.",
+    "answer": "This tomato leaf is affected by early blight, showing brown-to-dark-brown circular lesions with concentric rings (target/bull's-eye), distributed scattered then coalescing.",
+    "predicted_disease": "tomato_early_blight",
+    "true_disease": "tomato_early_blight",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "healthy__0902aa8e-e4f7-4c29-b11a-b2b7f24fe61c___GH_HL_Leaf_228.1.JPG": {
+  "crop": "tomato",
+  "class": "healthy",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "What can you observe on this tomato leaf?",
+    "answer": "A healthy tomato leaf with uniform green lamina.",
+    "predicted_disease": "tomato_healthy",
+    "true_disease": "tomato_healthy",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "What can you observe on this tomato leaf?",
+    "answer": "This tomato leaf looks healthy and vigorous, with clean surface and no signs of disease or pests.",
+    "predicted_disease": "tomato_healthy",
+    "true_disease": "tomato_healthy",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG": {
+  "crop": "tomato",
+  "class": "late_blight",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Report the visible signs on this tomato leaf.",
+    "answer": "This tomato leaf is affected by late blight, showing white downy underside sporulation, greasy.",
+    "predicted_disease": "tomato_late_blight",
+    "true_disease": "tomato_late_blight",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Report the visible signs on this tomato leaf.",
+    "answer": "This tomato leaf is affected by late blight, showing white downy underside sporulation.",
+    "predicted_disease": "tomato_late_blight",
+    "true_disease": "tomato_late_blight",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "leaf_mold__030ea180-4eb5-4f91-918e-56c7cfe2c001___Crnl_L.Mold_7076.JPG": {
+  "crop": "tomato",
+  "class": "leaf_mold",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "What can you observe on this tomato leaf?",
+    "answer": "This tomato leaf is affected by late blight, showing white downy underside sporulation, greasy.",
+    "predicted_disease": "tomato_late_blight",
+    "true_disease": "tomato_leaf_mold",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "What can you observe on this tomato leaf?",
+    "answer": "This tomato leaf is affected by late blight, showing white downy underside sporulation and extensive brown-black necrosis.",
+    "predicted_disease": "tomato_late_blight",
+    "true_disease": "tomato_leaf_mold",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "mosaic_virus__0c05f5bb-e38d-422f-8b1c-632d8c0d730c___PSU_CG_2133.JPG": {
+  "crop": "tomato",
+  "class": "mosaic_virus",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Report the visible signs on this tomato leaf.",
+    "answer": "This tomato leaf is affected by tomato mosaic virus, showing surface blistering (rugosity).",
+    "predicted_disease": "tomato_mosaic_virus",
+    "true_disease": "tomato_mosaic_virus",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Report the visible signs on this tomato leaf.",
+    "answer": "This tomato leaf is affected by tomato mosaic, showing surface blistering (rugosity).",
+    "predicted_disease": "tomato_mosaic_virus",
+    "true_disease": "tomato_mosaic_virus",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "septoria_leaf_spot__0176f68f-a3d8-473b-9bea-c075a5507b34___JR_Sept.L.S_2504.JPG": {
+  "crop": "tomato",
+  "class": "septoria_leaf_spot",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Examine this tomato leaf and describe any symptoms present.",
+    "answer": "This tomato leaf is affected by septoria leaf spot, showing small circular gray-centered spots with visible black pycnidia, dark-brown.",
+    "predicted_disease": "tomato_septoria_leaf_spot",
+    "true_disease": "tomato_septoria_leaf_spot",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Examine this tomato leaf and describe any symptoms present.",
+    "answer": "This tomato leaf is affected by septoria leaf spot, showing tiny black pycnidia visible as pinpoint dots in centers (key diagnostic).",
+    "predicted_disease": "tomato_septoria_leaf_spot",
+    "true_disease": "tomato_septoria_leaf_spot",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "spider_mites__00c8e9a0-1fb8-434b-8981-25511358ddc9___Com.G_SpM_FL_8717.JPG": {
+  "crop": "tomato",
+  "class": "spider_mites",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Describe what is shown on this tomato leaf image.",
+    "answer": "This tomato leaf is affected by two-spotted spider mite, showing fine stippling and webbing (and mites, if visible), diffuse.",
+    "predicted_disease": "tomato_spider_mites",
+    "true_disease": "tomato_spider_mites",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Describe what is shown on this tomato leaf image.",
+    "answer": "This tomato leaf is affected by two-spotted spider mite, showing fine pale/yellow stippling (tiny chlorotic flecks) on the upper surface from cell-content feeding, bronze, diffuse, and brittle.",
+    "predicted_disease": "tomato_spider_mites",
+    "true_disease": "tomato_spider_mites",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "target_spot__086c833c-f885-4b46-9417-a6a3406dadbe___Com.G_TgS_FL_7985.JPG": {
+  "crop": "tomato",
+  "class": "target_spot",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Describe the visible condition of this tomato leaf.",
+    "answer": "This tomato leaf is affected by target spot, showing fine concentric-ring target lesions with pale centers, with diffuse yellow halo.",
+    "predicted_disease": "tomato_target_spot",
+    "true_disease": "tomato_target_spot",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Describe the visible condition of this tomato leaf.",
+    "answer": "This tomato leaf is affected by target spot, showing sometimes a diffuse yellow (chlorotic) halo, target-like.",
+    "predicted_disease": "tomato_target_spot",
+    "true_disease": "tomato_target_spot",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "yellow_leaf_curl_virus__016bbee4-7b9d-40c8-a802-2bbf00f3bb27___YLCV_NREC_2290.JPG": {
+  "crop": "tomato",
+  "class": "yellow_leaf_curl_virus",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Provide a diagnostic description of this tomato leaf.",
+    "answer": "This tomato leaf shows tomato yellow leaf curl virus, producing marked reduction in leaflet size.",
+    "predicted_disease": "tomato_yellow_leaf_curl_virus",
+    "true_disease": "tomato_yellow_leaf_curl_virus",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Provide a diagnostic description of this tomato leaf.",
+    "answer": "This tomato leaf shows tomato yellow leaf curl virus, producing marked reduction in leaflet size.",
+    "predicted_disease": "tomato_yellow_leaf_curl_virus",
+    "true_disease": "tomato_yellow_leaf_curl_virus",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_tomato_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "anthracnose__20211008_124336_(Custom).jpg": {
+  "crop": "mango",
+  "class": "anthracnose",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Describe what is shown on this mango leaf image.",
+    "answer": "This mango anthracnose.",
+    "predicted_disease": "mango_anthracnose",
+    "true_disease": "mango_anthracnose",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Describe what is shown on this mango leaf image.",
+    "answer": "This mango anthracnose.",
+    "predicted_disease": "mango_anthracnose",
+    "true_disease": "mango_anthracnose",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "bacterial_canker__IMG_20211106_120928_(Custom).jpg": {
+  "crop": "mango",
+  "class": "bacterial_canker",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Describe the visible condition of this mango leaf.",
+    "answer": "This mango leaf is affected by bacterial canker, showing raised angular black vein-limited lesions + chlorotic halo, light-brown and gummy.",
+    "predicted_disease": "mango_bacterial_canker",
+    "true_disease": "mango_bacterial_canker",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Describe the visible condition of this mango leaf.",
+    "answer": "This mango leaf is affected by bacterial canker, showing raised, angular, black leaf lesions delimited by veins, distributed scattered, vein-delimited, on both surfaces.",
+    "predicted_disease": "mango_bacterial_canker",
+    "true_disease": "mango_bacterial_canker",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "cutting_weevil__20211011_160614_(Custom)_(Custom).jpg": {
+  "crop": "mango",
+  "class": "cutting_weevil",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Describe the visible condition of this mango leaf.",
+    "answer": "This mango leaf shows mango leaf-cutting weevil, producing clean, scissor-like cuts and notches at leaf margins/tips.",
+    "predicted_disease": "mango_cutting_weevil",
+    "true_disease": "mango_cutting_weevil",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Describe the visible condition of this mango leaf.",
+    "answer": "This mango leaf has been damaged by cutting weevil, insect feeding damage, leaving windowpane translucent feeding scars (epidermis left intact) on young leaves.",
+    "predicted_disease": "mango_cutting_weevil",
+    "true_disease": "mango_cutting_weevil",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "die_back__20211129_160453_(Custom).jpg": {
+  "crop": "mango",
+  "class": "die_back",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Examine this mango leaf and describe any symptoms present.",
+    "answer": "This mango leaf shows mango dieback. Leaves on affected shoots wilt, curl, dry, and become necrotic (scorched) can be seen, and the leaf may later develop scorched, curled, desiccated leaves.",
+    "predicted_disease": "unclassified",
+    "true_disease": "mango_die_back",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Examine this mango leaf and describe any symptoms present.",
+    "answer": "This mango leaf shows mango dieback, a fungal disease, producing marginal/tip browning, scorch, curling, and drying (whole-leaf decline).",
+    "predicted_disease": "unclassified",
+    "true_disease": "mango_die_back",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "gall_midge__IMG_20211106_161413_(Custom).jpg": {
+  "crop": "mango",
+  "class": "gall_midge",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Assess this mango leaf and summarize its visible symptoms.",
+    "answer": "This mango leaf is affected by gall midge, showing numerous small, raised, wart-like/pimple-like galls (bumps) on the lamina, black and hard, distributed densely scattered across the lamina, often between veins, with possible halo around galls and galls necrose (brown/black); shot-hole late.",
+    "predicted_disease": "mango_gall_midge",
+    "true_disease": "mango_gall_midge",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Assess this mango leaf and summarize its visible symptoms.",
+    "answer": "This mango leaf is affected by mango leaf gall midge, showing numerous small, raised, wart-like/pimple-like galls (bumps) on the lamina, raised.",
+    "predicted_disease": "mango_gall_midge",
+    "true_disease": "mango_gall_midge",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "healthy__20211231_123225_(Custom).jpg": {
+  "crop": "mango",
+  "class": "healthy",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Give a concise description of this mango leaf's appearance.",
+    "answer": "This mango leaf appears healthy, with leathery, glossy texture and no visible symptoms.",
+    "predicted_disease": "mango_healthy",
+    "true_disease": "mango_healthy",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Give a concise description of this mango leaf's appearance.",
+    "answer": "This mango leaf appears healthy, with leathery, glossy texture and no visible symptoms.",
+    "predicted_disease": "mango_healthy",
+    "true_disease": "mango_healthy",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "powdery_mildew__20211109_121314_(Custom).jpg": {
+  "crop": "mango",
+  "class": "powdery_mildew",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Examine this mango leaf and describe any symptoms present.",
+    "answer": "This mango leaf is affected by powdery mildew, showing white powdery/mealy coating on the leaf surface, distributed scattered to coalescing.",
+    "predicted_disease": "mango_powdery_mildew",
+    "true_disease": "mango_powdery_mildew",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Examine this mango leaf and describe any symptoms present.",
+    "answer": "This mango leaf is affected by powdery mildew, showing white powdery/mealy coating on the leaf surface, purplish-brown, coalescing, and brittle.",
+    "predicted_disease": "mango_powdery_mildew",
+    "true_disease": "mango_powdery_mildew",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   }
+  }
+ },
+ "sooty_mould__IMG_20211108_120937_(Custom).jpg": {
+  "crop": "mango",
+  "class": "sooty_mould",
+  "runs": {
+   "July 2026 adapter (not retained)": {
+    "instruction": "Examine this mango leaf and describe any symptoms present.",
+    "answer": "This mango leaf is affected by sooty mould, showing black sooty superficial coating (wipeable) over green tissue, dark-brown.",
+    "predicted_disease": "mango_sooty_mould",
+    "true_disease": "mango_sooty_mould",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   },
+   "Nov 2026 retrain (served adapter)": {
+    "instruction": "Examine this mango leaf and describe any symptoms present.",
+    "answer": "This mango leaf is affected by powdery mildew, showing white powdery/mealy coating on the leaf surface, purplish-brown, coalescing, and brittle.",
+    "predicted_disease": "mango_powdery_mildew",
+    "true_disease": "mango_sooty_mould",
+    "source": "projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/qwen25vl_mango_qlora/evaluation/predictions.csv"
+   }
+  }
+ }
+}
