@@ -1,0 +1,10 @@
+tomato_blip2_march           MATCH                                    app=Late Blight None orig=None None
+tomato_blip2_june            MATCH                                    app=Late Blight None orig=None None
+tomato_llava16               MATCH                                    app=Unknown None orig=None None
+tomato_qwen_april            MATCH                                    app=Late Blight None orig=None None
+tomato_plantdx               MATCH                                    app=Late Blight None orig=None None
+tomato_plantvlm              MATCH                                    app=(free text; no class parsing) None orig=None None
+tomato_qwen_base             MATCH                                    app=Unknown None orig=None None
+tomato_florence_base         MATCH                                    app=Unknown None orig=None None
+tomato_tih_qlora             MATCH                                    app=Late Blight 1.0 orig=Late Blight 1.0
+written C:\Users\Admin\Desktop\Demo_TIH_Handover\Demo_Assets\verification\verification_results_subset.json

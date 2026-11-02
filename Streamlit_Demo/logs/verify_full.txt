@@ -1,0 +1,29 @@
+tomato_custom_cnn            MATCH                                    app=Tomato_Late_blight 0.9999 orig=Tomato_Late_blight 1.0
+tomato_mobilenetv2_keras     MATCH                                    app=Tomato_Late_blight 1.0 orig=Tomato_Late_blight 1.0
+tomato_efficientnetb3_keras  MATCH                                    app=Tomato_Late_blight 0.9993 orig=Tomato_Late_blight 0.999
+tomato_convnext_keras        MATCH                                    app=Tomato_Late_blight 1.0 orig=Tomato_Late_blight 1.0
+tomato_convnext_torch        MATCH                                    app=Tomato_Late_blight 1.0 orig=Tomato_Late_blight 1.0
+tomato_blip2_march           MATCH                                    app=Late Blight None orig=None None
+tomato_blip2_june            MATCH                                    app=Late Blight None orig=None None
+tomato_llava16               MATCH                                    app=Unknown None orig=None None
+tomato_qwen_april            MATCH                                    app=Late Blight None orig=None None
+tomato_plantdx               MATCH                                    app=Late Blight None orig=None None
+tomato_plantvlm              MATCH                                    app=(free text; no class parsing) None orig=None None
+tomato_qwen_base             MATCH                                    app=Unknown None orig=None None
+tomato_florence_base         MATCH                                    app=Unknown None orig=None None
+tomato_mlx_kg                NOT RUN  needs macOS on Apple Silicon (MLX); not available on this machine
+tomato_tih_qlora             MATCH                                    app=Late Blight 1.0 orig=Late Blight 1.0
+mango_mlx_kg                 NOT RUN  needs macOS on Apple Silicon (MLX); not available on this machine
+soy_resnet50_keras           no original script (app result only)     app=Healthy 0.9922 orig=None None
+soy_resnet50_keras           no original script (app result only)     app=Diseased 1.0 orig=None None
+soy_mobilenetv2_keras        no original script (app result only)     app=Diseased 0.9426 orig=None None
+soy_mobilenetv2_keras        no original script (app result only)     app=Diseased 1.0 orig=None None
+soy_resnet50_torch           MATCH                                    app=Healthy 0.995 orig=Healthy 0.995
+soy_resnet50_torch           MATCH                                    app=Diseased 0.8812 orig=Diseased 0.881
+soy_mobilenetv2_torch        MATCH                                    app=Healthy 0.9921 orig=Healthy 0.992
+soy_mobilenetv2_torch        MATCH                                    app=Diseased 0.9987 orig=Diseased 0.999
+soy_efficientnetb0_torch     MATCH                                    app=Healthy 0.9843 orig=Healthy 0.984
+soy_efficientnetb0_torch     MATCH                                    app=Diseased 0.9848 orig=Diseased 0.985
+soy_efficientnetb3_torch     MATCH                                    app=Healthy 0.9966 orig=Healthy 0.997
+soy_efficientnetb3_torch     MATCH                                    app=Diseased 0.9886 orig=Diseased 0.989
+written C:\Users\Admin\Desktop\Demo_TIH_Handover\Demo_Assets\verification\verification_results.json

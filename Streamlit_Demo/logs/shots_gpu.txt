@@ -1,0 +1,34 @@
+04_tomato_qwen_april_prediction: saved (30s)
+Traceback (most recent call last):
+  File "D:\handover\.venvs\vlm\lib\site-packages\tornado\websocket.py", line 1107, in write_message
+    fut = self._write_frame(True, opcode, message, flags=flags)
+  File "D:\handover\.venvs\vlm\lib\site-packages\tornado\websocket.py", line 1082, in _write_frame
+    return self.stream.write(frame)
+  File "D:\handover\.venvs\vlm\lib\site-packages\tornado\iostream.py", line 523, in write
+    self._check_closed()
+  File "D:\handover\.venvs\vlm\lib\site-packages\tornado\iostream.py", line 998, in _check_closed
+    raise StreamClosedError(real_error=self.error)
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\Demo_TIH_Handover\Streamlit_Demo\tests\capture_screenshots.py", line 135, in <module>
+    asyncio.run(main_async(a.base, [s for s in a.only.split(",") if s]))
+  File "C:\Program Files\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Program Files\Python310\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "C:\Users\Admin\Desktop\Demo_TIH_Handover\Streamlit_Demo\tests\capture_screenshots.py", line 124, in main_async
+    await shoot(cdp, base, name, query, selector, limit)
+  File "C:\Users\Admin\Desktop\Demo_TIH_Handover\Streamlit_Demo\tests\capture_screenshots.py", line 75, in shoot
+    done = await cdp.js(
+  File "C:\Users\Admin\Desktop\Demo_TIH_Handover\Streamlit_Demo\tests\capture_screenshots.py", line 65, in js
+    r = await self.call("Runtime.evaluate", expression=expr, returnByValue=True)
+  File "C:\Users\Admin\Desktop\Demo_TIH_Handover\Streamlit_Demo\tests\capture_screenshots.py", line 58, in call
+    await self.ws.write_message(json.dumps({"id": self.i, "method": method, "params": params}))
+  File "D:\handover\.venvs\vlm\lib\site-packages\tornado\websocket.py", line 1551, in write_message
+    return self.protocol.write_message(message, binary=binary)
+  File "D:\handover\.venvs\vlm\lib\site-packages\tornado\websocket.py", line 1109, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError

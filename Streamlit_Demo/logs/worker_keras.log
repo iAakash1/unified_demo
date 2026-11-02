@@ -1,0 +1,28 @@
+WARNING:tensorflow:From D:\handover\.venvs\keras\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793609642.651262   16800 device_compiler.h:196] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+WARNING:tensorflow:From D:\handover\.venvs\keras\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793609964.599155   22412 device_compiler.h:196] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+WARNING:tensorflow:From D:\handover\.venvs\keras\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793610018.356161   22996 device_compiler.h:196] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+WARNING:tensorflow:From D:\handover\.venvs\keras\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793610219.156137   24320 device_compiler.h:196] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+WARNING:tensorflow:From D:\handover\.venvs\keras\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793610332.363572   21436 device_compiler.h:196] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+WARNING:tensorflow:From D:\handover\.venvs\keras\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793611723.994629   14624 device_compiler.h:196] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+WARNING:tensorflow:From D:\handover\.venvs\keras\lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793613531.816313   11144 device_compiler.h:196] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
