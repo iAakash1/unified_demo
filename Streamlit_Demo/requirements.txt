@@ -1,0 +1,6 @@
+# The app process itself only needs Streamlit and Pillow. The models do NOT run in this process: each runs in a
+# worker started with the handover clone's own environment (.venvs\keras, soynet, vlm, florence, tih; built by
+# `python setup\setup_envs.py` in the clone), which already pins TensorFlow, PyTorch, transformers, PEFT and
+# bitsandbytes. The simplest host is the clone's `vlm` environment, which already has these two packages.
+streamlit==1.44.1
+pillow>=10
