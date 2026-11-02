@@ -1,0 +1,128 @@
+[
+ {
+  "crop": "tomato",
+  "class": "bacterial_spot",
+  "file": "sample_images/tomato/bacterial_spot__00a7c269-3476-4d25-b744-44d6353cd921___GCREC_Bact.Sp_5807.JPG",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/tomato/raw/PlantVillage/train/Tomato___Bacterial_spot/00a7c269-3476-4d25-b744-44d6353cd921___GCREC_Bact.Sp 5807.JPG",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "tomato",
+  "class": "early_blight",
+  "file": "sample_images/tomato/early_blight__0034a551-9512-44e5-ba6c-827f85ecc688___RS_Erly.B_9432.JPG",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/tomato/raw/PlantVillage/val/Tomato___Early_blight/0034a551-9512-44e5-ba6c-827f85ecc688___RS_Erly.B 9432.JPG",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "tomato",
+  "class": "healthy",
+  "file": "sample_images/tomato/healthy__0902aa8e-e4f7-4c29-b11a-b2b7f24fe61c___GH_HL_Leaf_228.1.JPG",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/tomato/raw/PlantVillage/train/Tomato___healthy/0902aa8e-e4f7-4c29-b11a-b2b7f24fe61c___GH_HL Leaf 228.1.JPG",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "tomato",
+  "class": "late_blight",
+  "file": "sample_images/tomato/late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/tomato/raw/PlantVillage/val/Tomato___Late_blight/01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2 Leaf 9100.JPG",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "tomato",
+  "class": "leaf_mold",
+  "file": "sample_images/tomato/leaf_mold__030ea180-4eb5-4f91-918e-56c7cfe2c001___Crnl_L.Mold_7076.JPG",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/tomato/raw/PlantVillage/train/Tomato___Leaf_Mold/030ea180-4eb5-4f91-918e-56c7cfe2c001___Crnl_L.Mold 7076.JPG",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "tomato",
+  "class": "mosaic_virus",
+  "file": "sample_images/tomato/mosaic_virus__0c05f5bb-e38d-422f-8b1c-632d8c0d730c___PSU_CG_2133.JPG",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/tomato/raw/PlantVillage/train/Tomato___Tomato_mosaic_virus/0c05f5bb-e38d-422f-8b1c-632d8c0d730c___PSU_CG 2133.JPG",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "tomato",
+  "class": "septoria_leaf_spot",
+  "file": "sample_images/tomato/septoria_leaf_spot__0176f68f-a3d8-473b-9bea-c075a5507b34___JR_Sept.L.S_2504.JPG",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/tomato/raw/PlantVillage/train/Tomato___Septoria_leaf_spot/0176f68f-a3d8-473b-9bea-c075a5507b34___JR_Sept.L.S 2504.JPG",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "tomato",
+  "class": "spider_mites",
+  "file": "sample_images/tomato/spider_mites__00c8e9a0-1fb8-434b-8981-25511358ddc9___Com.G_SpM_FL_8717.JPG",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/tomato/raw/PlantVillage/train/Tomato___Spider_mites Two-spotted_spider_mite/00c8e9a0-1fb8-434b-8981-25511358ddc9___Com.G_SpM_FL 8717.JPG",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "tomato",
+  "class": "target_spot",
+  "file": "sample_images/tomato/target_spot__086c833c-f885-4b46-9417-a6a3406dadbe___Com.G_TgS_FL_7985.JPG",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/tomato/raw/PlantVillage/train/Tomato___Target_Spot/086c833c-f885-4b46-9417-a6a3406dadbe___Com.G_TgS_FL 7985.JPG",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "tomato",
+  "class": "yellow_leaf_curl_virus",
+  "file": "sample_images/tomato/yellow_leaf_curl_virus__016bbee4-7b9d-40c8-a802-2bbf00f3bb27___YLCV_NREC_2290.JPG",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/tomato/raw/PlantVillage/train/Tomato___Tomato_Yellow_Leaf_Curl_Virus/016bbee4-7b9d-40c8-a802-2bbf00f3bb27___YLCV_NREC 2290.JPG",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "mango",
+  "class": "anthracnose",
+  "file": "sample_images/mango/anthracnose__20211008_124336_(Custom).jpg",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/mango/raw/MangoLeafBD/Anthracnose/20211008_124336 (Custom).jpg",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "mango",
+  "class": "bacterial_canker",
+  "file": "sample_images/mango/bacterial_canker__IMG_20211106_120928_(Custom).jpg",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/mango/raw/MangoLeafBD/Bacterial Canker/IMG_20211106_120928 (Custom).jpg",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "mango",
+  "class": "cutting_weevil",
+  "file": "sample_images/mango/cutting_weevil__20211011_160614_(Custom)_(Custom).jpg",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/mango/raw/MangoLeafBD/Cutting Weevil/20211011_160614 (Custom) (Custom).jpg",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "mango",
+  "class": "die_back",
+  "file": "sample_images/mango/die_back__20211129_160453_(Custom).jpg",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/mango/raw/MangoLeafBD/Die Back/20211129_160453 (Custom).jpg",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "mango",
+  "class": "gall_midge",
+  "file": "sample_images/mango/gall_midge__IMG_20211106_161413_(Custom).jpg",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/mango/raw/MangoLeafBD/Gall Midge/IMG_20211106_161413 (Custom).jpg",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "mango",
+  "class": "healthy",
+  "file": "sample_images/mango/healthy__20211231_123225_(Custom).jpg",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/mango/raw/MangoLeafBD/Healthy/20211231_123225 (Custom).jpg",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "mango",
+  "class": "powdery_mildew",
+  "file": "sample_images/mango/powdery_mildew__20211109_121314_(Custom).jpg",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/mango/raw/MangoLeafBD/Powdery Mildew/20211109_121314 (Custom).jpg",
+  "split": "test split of the MLX run (seed 20260711)"
+ },
+ {
+  "crop": "mango",
+  "class": "sooty_mould",
+  "file": "sample_images/mango/sooty_mould__IMG_20211108_120937_(Custom).jpg",
+  "source": "projects/09_plantdx_mlx_knowledge_grounded/mango/raw/MangoLeafBD/Sooty Mould/IMG_20211108_120937 (Custom).jpg",
+  "split": "test split of the MLX run (seed 20260711)"
+ }
+]
