@@ -1,0 +1,671 @@
+[
+ {
+  "model_id": "tomato_custom_cnn",
+  "model": "Custom CNN (Keras)",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Tomato_Late_blight",
+   "score": 0.9999,
+   "score_kind": "softmax probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.097,
+   "load_seconds": 2.27,
+   "device": "CPU"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 2.9,
+   "command": "python.exe predict.py --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG --model cnn",
+   "label": "Tomato_Late_blight",
+   "score": 1.0
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "tomato_mobilenetv2_keras",
+  "model": "MobileNetV2 (Keras)",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Tomato_Late_blight",
+   "score": 1.0,
+   "score_kind": "softmax probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.457,
+   "load_seconds": 0.47,
+   "device": "CPU"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 3.6,
+   "command": "python.exe predict.py --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG --model mobilenet",
+   "label": "Tomato_Late_blight",
+   "score": 1.0
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "tomato_efficientnetb3_keras",
+  "model": "EfficientNetB3 (Keras)",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Tomato_Late_blight",
+   "score": 0.9993,
+   "score_kind": "softmax probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 1.259,
+   "load_seconds": 1.14,
+   "device": "CPU"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 5.1,
+   "command": "python.exe predict.py --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG --model efficientnet",
+   "label": "Tomato_Late_blight",
+   "score": 0.999
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "tomato_convnext_keras",
+  "model": "ConvNeXt-Tiny (Keras)",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Tomato_Late_blight",
+   "score": 1.0,
+   "score_kind": "softmax probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.647,
+   "load_seconds": 0.94,
+   "device": "CPU"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 4.3,
+   "command": "python.exe predict.py --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG --model convnext",
+   "label": "Tomato_Late_blight",
+   "score": 1.0
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "tomato_convnext_torch",
+  "model": "ConvNeXt-Tiny (PyTorch)",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Tomato_Late_blight",
+   "score": 1.0,
+   "score_kind": "softmax probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.135,
+   "load_seconds": 0.4,
+   "device": "CUDA"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 2.8,
+   "command": "python.exe predict.py --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+   "label": "Tomato_Late_blight",
+   "score": 1.0
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "tomato_blip2_march",
+  "model": "BLIP-2 OPT-2.7B + LoRA (March)",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Late Blight",
+   "score": null,
+   "score_kind": "none (generated text)",
+   "text": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Progressive dark lesions with pale halos and wilted tissue edges across the leaf indicate moderate to severe late blight. The leaf exhibits rapidly expanding brown-black lesions with faint green halos, consistent with advanced late blight progression. The leaf surface shows large water-soaked lesions with dark brown centers and pale hal",
+   "error": null,
+   "infer_seconds": 2.359,
+   "load_seconds": 12.55,
+   "device": "CUDA"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 14.7,
+   "command": "python.exe vlm_predict.py --model blip2_march --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+   "text": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Progressive dark lesions with pale halos and wilted tissue edges across the leaf indicate moderate to severe late blight. The leaf exhibits rapidly expanding brown-black lesions with faint green halos, consistent with advanced late blight progression. The leaf surface shows large water-soaked lesions with dark brown centers and pale hal"
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "tomato_blip2_june",
+  "model": "BLIP-2 OPT-2.7B + LoRA (June re-run)",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Late Blight",
+   "score": null,
+   "score_kind": "none (generated text)",
+   "text": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Progressive dark lesions with pale halos and wilted tissue edges across the leaf indicate moderate to severe late blight. The leaf exhibits rapidly expanding brown-black lesions with faint green halos, consistent with advanced late blight progression. The leaf surface shows large water-soaked lesions with dark brown centers and pale hal",
+   "error": null,
+   "infer_seconds": 2.114,
+   "load_seconds": 8.68,
+   "device": "CUDA"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 15.3,
+   "command": "python.exe vlm_predict.py --model blip2_june --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+   "text": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Progressive dark lesions with pale halos and wilted tissue edges across the leaf indicate moderate to severe late blight. The leaf exhibits rapidly expanding brown-black lesions with faint green halos, consistent with advanced late blight progression. The leaf surface shows large water-soaked lesions with dark brown centers and pale hal"
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "tomato_llava16",
+  "model": "LLaVA-1.6-Mistral-7B + LoRA",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Unknown",
+   "score": null,
+   "score_kind": "none (generated text)",
+   "text": "The image you've provided shows a close-up of a leaf with several visible features that could be indicative of certain plant diseases or conditions. Here's a detailed analysis:\n\n1. Chlorosis: There are areas on the leaf where the chlorophyll has been lost, resulting in a yellowish discoloration. Chlorosis can be caused by a variety of factors, including nutrient deficiencies, water stress, or pests/diseases.\n\n2. Necrotic Tissue: There are darker areas on the leaf that appear to be necrotic, which means the tissues have died. This could be due to a number of reasons, such as fungal or bacterial infections, physical damage, or",
+   "error": null,
+   "infer_seconds": 20.837,
+   "load_seconds": 14.19,
+   "device": "CUDA"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 37.1,
+   "command": "python.exe vlm_predict.py --model llava --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+   "text": "The image you've provided shows a close-up of a leaf with several visible features that could be indicative of certain plant diseases or conditions. Here's a detailed analysis:\n\n1. Chlorosis: There are areas on the leaf where the chlorophyll has been lost, resulting in a yellowish discoloration. Chlorosis can be caused by a variety of factors, including nutrient deficiencies, water stress, or pests/diseases.\n\n2. Necrotic Tissue: There are darker areas on the leaf that appear to be necrotic, which means the tissues have died. This could be due to a number of reasons, such as fungal or bacterial infections, physical damage, or"
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "tomato_qwen_april",
+  "model": "Qwen2.5-VL-7B + LoRA, PlantVillage (April)",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Late Blight",
+   "score": null,
+   "score_kind": "none (generated text)",
+   "text": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Dark necrotic regions with a greasy sheen and indistinct margins are spreading rapidly across this diseased Tomato leaf.",
+   "error": null,
+   "infer_seconds": 10.639,
+   "load_seconds": 12.56,
+   "device": "CUDA"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 27.4,
+   "command": "python.exe vlm_predict.py --model qwen_april --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+   "text": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Dark necrotic regions with a greasy sheen and indistinct margins are spreading rapidly across this diseased Tomato leaf."
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "tomato_plantdx",
+  "model": "PlantDx Qwen2.5-VL-7B + LoRA (May)",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Late Blight",
+   "score": null,
+   "score_kind": "none (generated text)",
+   "text": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. The leaf exhibits rapidly expanding brown-black lesions with faint green halos, consistent with advanced late blight progression.",
+   "error": null,
+   "infer_seconds": 3.374,
+   "load_seconds": 12.19,
+   "device": "CUDA"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 19.7,
+   "command": "python.exe vlm_predict.py --model plantdx --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+   "text": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. The leaf exhibits rapidly expanding brown-black lesions with faint green halos, consistent with advanced late blight progression."
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "tomato_plantvlm",
+  "model": "PlantVLM expert-caption Qwen2.5-VL + LoRA",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "(free text; no class parsing)",
+   "score": null,
+   "score_kind": "none (generated text)",
+   "text": "The central vein is clearly visible and runs from the base to the tip of the leaf. The color variation is most noticeable near the edges, where lighter green sections interrupt the darker green surface. A few small brown marks are scattered across the leaf.",
+   "error": null,
+   "infer_seconds": 9.479,
+   "load_seconds": 10.94,
+   "device": "CUDA"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 25.5,
+   "command": "python.exe vlm_predict.py --model plantvlm --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+   "text": "The central vein is clearly visible and runs from the base to the tip of the leaf. The color variation is most noticeable near the edges, where lighter green sections interrupt the darker green surface. A few small brown marks are scattered across the leaf."
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "tomato_qwen_base",
+  "model": "Qwen2.5-VL-7B without fine-tuning (baseline)",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Unknown",
+   "score": null,
+   "score_kind": "none (generated text)",
+   "text": "The image shows a leaf that appears to be from a broadleaf plant, possibly an oak (Quercus species), given the lobed shape of the leaf. However, without more context or a closer look at the underside of the leaf, it's difficult to definitively identify the plant.\n\n### Diagnosis:\n\n#### Plant Name:\nBroadleaf tree (possibly an oak)\n\n#### Disease or Health Condition:\n- **Wilting and Browning**: The leaf is wilting and has brown edges, which could indicate several issues such as water stress, nutrient deficiency, or disease.\n\n#### Severity Level:\n- **Mild to Moderate**: The browning is localized but significant enough to affect the leaf's function and appearance.\n\n#### Causal Pathogen:\n- **Water Stress**: This is a common cause for wil",
+   "error": null,
+   "infer_seconds": 7.985,
+   "load_seconds": 13.7,
+   "device": "CUDA"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 26.8,
+   "command": "python.exe vlm_predict.py --model qwen_base --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+   "text": "The image shows a leaf that appears to be from a broadleaf plant, possibly an oak (Quercus species), given the lobed shape of the leaf. However, without more context or a closer look at the underside of the leaf, it's difficult to definitively identify the plant.\n\n### Diagnosis:\n\n#### Plant Name:\nBroadleaf tree (possibly an oak)\n\n#### Disease or Health Condition:\n- **Wilting and Browning**: The leaf is wilting and has brown edges, which could indicate several issues such as water stress, nutrient deficiency, or disease.\n\n#### Severity Level:\n- **Mild to Moderate**: The browning is localized but significant enough to affect the leaf's function and appearance.\n\n#### Causal Pathogen:\n- **Water Stress**: This is a common cause for wil"
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "tomato_florence_base",
+  "model": "Florence-2-base-ft without fine-tuning (baseline)",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Unknown",
+   "score": null,
+   "score_kind": "none (generated text)",
+   "text": "There is a leaf on the ground. The leaf is green. There are small holes in the leaf. There is a small piece of yellow on the leaf next to it. The ground under the leaf is gray.",
+   "error": null,
+   "infer_seconds": 3.119,
+   "load_seconds": 10.97,
+   "device": "CUDA"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 9.4,
+   "command": "python.exe vlm_predict.py --model florence --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+   "text": "There is a leaf on the ground. The leaf is green. There are small holes in the leaf. There is a small piece of yellow on the leaf next to it. The ground under the leaf is gray."
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "tomato_mlx_kg",
+  "model": "Knowledge-grounded Qwen2.5-VL MLX QLoRA (tomato)",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "restricted",
+  "status": "NOT RUN",
+  "reason": "needs macOS on Apple Silicon (MLX); not available on this machine"
+ },
+ {
+  "model_id": "tomato_tih_qlora",
+  "model": "TIH 11-class Qwen2.5-VL QLoRA (ICAIN 2026)",
+  "image": "late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Late Blight",
+   "score": 1.0,
+   "score_kind": "mean probability of the generated tokens",
+   "text": "Late Blight",
+   "error": null,
+   "infer_seconds": 3.958,
+   "load_seconds": 36.21,
+   "device": "CUDA (4-bit NF4)"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 23.8,
+   "command": "python.exe -m plantdx.cli company predict --config configs/train/qwen25vl_tih_tomato_moreaccurate.yaml --adapter checkpoints/tih_tomato_moreaccurate --image C:\\Users\\Admin\\Desktop\\Demo_TIH_Handover\\Demo_Assets\\sample_images\\tomato\\late_blight__01425d17-4c97-46e3-b395-c1453b78ab78___GHLB2_Leaf_9100.JPG --json",
+   "label": "Late Blight",
+   "score": 1.0,
+   "text": "Late Blight"
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "mango_mlx_kg",
+  "model": "Knowledge-grounded Qwen2.5-VL MLX QLoRA (mango)",
+  "image": "anthracnose__20211008_124336_(Custom).jpg",
+  "availability": "restricted",
+  "status": "NOT RUN",
+  "reason": "needs macOS on Apple Silicon (MLX); not available on this machine"
+ },
+ {
+  "model_id": "soy_resnet50_keras",
+  "model": "SoyNet ResNet50 (Keras)",
+  "image": "soy (23).JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Healthy",
+   "score": 0.9922,
+   "score_kind": "sigmoid probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 3.755,
+   "load_seconds": 14.83,
+   "device": "CUDA"
+  },
+  "original": {
+   "available": false,
+   "note": "no single-image script in the repository for this model"
+  },
+  "status": "no original script (app result only)"
+ },
+ {
+  "model_id": "soy_resnet50_keras",
+  "model": "SoyNet ResNet50 (Keras)",
+  "image": "Soy  (218).JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Diseased",
+   "score": 1.0,
+   "score_kind": "sigmoid probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.038,
+   "load_seconds": 0.0,
+   "device": "CUDA"
+  },
+  "original": {
+   "available": false,
+   "note": "no single-image script in the repository for this model"
+  },
+  "status": "no original script (app result only)"
+ },
+ {
+  "model_id": "soy_mobilenetv2_keras",
+  "model": "SoyNet MobileNetV2 (Keras)",
+  "image": "soy (23).JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Diseased",
+   "score": 0.9426,
+   "score_kind": "sigmoid probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.44,
+   "load_seconds": 0.73,
+   "device": "CUDA"
+  },
+  "original": {
+   "available": false,
+   "note": "no single-image script in the repository for this model"
+  },
+  "status": "no original script (app result only)"
+ },
+ {
+  "model_id": "soy_mobilenetv2_keras",
+  "model": "SoyNet MobileNetV2 (Keras)",
+  "image": "Soy  (218).JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Diseased",
+   "score": 1.0,
+   "score_kind": "sigmoid probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.035,
+   "load_seconds": 0.0,
+   "device": "CUDA"
+  },
+  "original": {
+   "available": false,
+   "note": "no single-image script in the repository for this model"
+  },
+  "status": "no original script (app result only)"
+ },
+ {
+  "model_id": "soy_resnet50_torch",
+  "model": "SoyNet ResNet50 (PyTorch)",
+  "image": "soy (23).JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Healthy",
+   "score": 0.995,
+   "score_kind": "sigmoid probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 1.638,
+   "load_seconds": 13.88,
+   "device": "CUDA:0"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 6.1,
+   "command": "python.exe predict_soynet.py --image C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Healthy_Preprocessing data\\soy (23).JPG --model resnet50",
+   "label": "Healthy",
+   "score": 0.995
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "soy_resnet50_torch",
+  "model": "SoyNet ResNet50 (PyTorch)",
+  "image": "Soy  (218).JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Diseased",
+   "score": 0.8812,
+   "score_kind": "sigmoid probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.011,
+   "load_seconds": 0.0,
+   "device": "CUDA:0"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 4.2,
+   "command": "python.exe predict_soynet.py --image C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Disease_Preprocessing data\\Soy  (218).JPG --model resnet50",
+   "label": "Diseased",
+   "score": 0.881
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "soy_mobilenetv2_torch",
+  "model": "SoyNet MobileNetV2 (PyTorch)",
+  "image": "soy (23).JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Healthy",
+   "score": 0.9921,
+   "score_kind": "sigmoid probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.169,
+   "load_seconds": 0.19,
+   "device": "CUDA:0"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 3.8,
+   "command": "python.exe predict_soynet.py --image C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Healthy_Preprocessing data\\soy (23).JPG --model mobilenetv2",
+   "label": "Healthy",
+   "score": 0.992
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "soy_mobilenetv2_torch",
+  "model": "SoyNet MobileNetV2 (PyTorch)",
+  "image": "Soy  (218).JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Diseased",
+   "score": 0.9987,
+   "score_kind": "sigmoid probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.006,
+   "load_seconds": 0.0,
+   "device": "CUDA:0"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 3.8,
+   "command": "python.exe predict_soynet.py --image C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Disease_Preprocessing data\\Soy  (218).JPG --model mobilenetv2",
+   "label": "Diseased",
+   "score": 0.999
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "soy_efficientnetb0_torch",
+  "model": "SoyNet EfficientNetB0 (PyTorch)",
+  "image": "soy (23).JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Healthy",
+   "score": 0.9843,
+   "score_kind": "sigmoid probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.164,
+   "load_seconds": 0.3,
+   "device": "CUDA:0"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 3.8,
+   "command": "python.exe predict_soynet.py --image C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Healthy_Preprocessing data\\soy (23).JPG --model efficientnet_b0",
+   "label": "Healthy",
+   "score": 0.984
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "soy_efficientnetb0_torch",
+  "model": "SoyNet EfficientNetB0 (PyTorch)",
+  "image": "Soy  (218).JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Diseased",
+   "score": 0.9848,
+   "score_kind": "sigmoid probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.008,
+   "load_seconds": 0.0,
+   "device": "CUDA:0"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 4.0,
+   "command": "python.exe predict_soynet.py --image C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Disease_Preprocessing data\\Soy  (218).JPG --model efficientnet_b0",
+   "label": "Diseased",
+   "score": 0.985
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "soy_efficientnetb3_torch",
+  "model": "SoyNet EfficientNetB3 (PyTorch)",
+  "image": "soy (23).JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Healthy",
+   "score": 0.9966,
+   "score_kind": "sigmoid probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.032,
+   "load_seconds": 0.58,
+   "device": "CUDA:0"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 4.2,
+   "command": "python.exe predict_soynet.py --image C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Healthy_Preprocessing data\\soy (23).JPG --model efficientnet_b3",
+   "label": "Healthy",
+   "score": 0.997
+  },
+  "status": "MATCH"
+ },
+ {
+  "model_id": "soy_efficientnetb3_torch",
+  "model": "SoyNet EfficientNetB3 (PyTorch)",
+  "image": "Soy  (218).JPG",
+  "availability": "ready",
+  "app": {
+   "ok": true,
+   "label": "Diseased",
+   "score": 0.9886,
+   "score_kind": "sigmoid probability",
+   "text": null,
+   "error": null,
+   "infer_seconds": 0.011,
+   "load_seconds": 0.0,
+   "device": "CUDA:0"
+  },
+  "original": {
+   "available": true,
+   "returncode": 0,
+   "seconds": 4.3,
+   "command": "python.exe predict_soynet.py --image C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Disease_Preprocessing data\\Soy  (218).JPG --model efficientnet_b3",
+   "label": "Diseased",
+   "score": 0.989
+  },
+  "status": "MATCH"
+ }
+]
